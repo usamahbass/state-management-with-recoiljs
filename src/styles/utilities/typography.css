@@ -1,0 +1,63 @@
+h2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li * {
+  float: left;
+}
+
+li,
+h3 {
+  clear: both;
+  list-style: none;
+}
+
+h3,
+label[for="new-task"] {
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #fff;
+  padding: 20px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+label[for="new-task"] {
+  display: block;
+  margin: 0 0 20px;
+  color: #eee;
+}
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+}
+
+li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 237px;
+  padding: 0 0 0 11px;
+  color: #eee;
+}
+
+li > input[type="text"] {
+  width: 226px;
+}

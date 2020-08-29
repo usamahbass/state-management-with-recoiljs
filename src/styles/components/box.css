@@ -1,0 +1,13 @@
+.container {
+  display: block;
+  width: 400px;
+  margin: 10px auto 100px;
+  background-color: #1d71aa;
+  padding: 0px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
